@@ -10,11 +10,11 @@ public class Task implements Comparable<Task> {
     }
 
     public LocalDate getDate() {
-        return date;
+        return this.date;
     }
 
     public String getDescription() {
-        return description;
+        return this.description;
     }
 
     @Override
@@ -24,6 +24,6 @@ public class Task implements Comparable<Task> {
 
     @Override
     public String toString() {
-        return date + " " + description;
+        return this.date + " " + this.description;
     }
 }
